@@ -69,7 +69,11 @@ struct Tabbar: View {
                     .toolbar {
                         ToolbarItem(placement: .principal) {
                             HStack {
-                                Image("logo_topbar")
+                                Text("Colligram 🥦")
+                                    .font(.title2)
+                                    .fontWeight(.heavy)
+                                    .foregroundColor(Color(red: 0.5, green: 0.8, blue: 0.3, opacity: 1.0))
+                                    .padding()
                             }
                         }
                     }.background(Color.backgroundColor)
